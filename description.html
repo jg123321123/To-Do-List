@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>To-Do List</title>
+</head>
+<body>
+    <div>
+        <p>
+            This website helps organize tasks.
+        </p>
+        <ul>
+            <li>
+                <a href="index.php">
+                    <img src="todopic.png" alt="icon" />
+                </a>
+            </li>
+        </ul>
+    </div>
+    
+    <h1>Contact Developer</h1>
+    <form method="POST" action="send_email.php">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="message">Message to the developer:</label><br>
+        <textarea id="message" name="message" rows="5" required></textarea><br><br>
+        <input type="submit" value="Send">
+    </form>
+</body>
+</html>
